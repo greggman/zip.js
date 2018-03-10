@@ -1,0 +1,51 @@
+{
+  "name": "zipalicious",
+  "version": "0.0.1",
+  "description": "JavaScript Zip Library that can zip/unzip without needing all data in memory",
+  "main": "dist/zip.js",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greggman/zipalicious.git"
+  },
+  "keywords": [
+    "zip",
+    "unzip"
+  ],
+  "author": "gildas.lormeau",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/greggman/zipalicious/issues"
+  },
+  "homepage": "https://github.com/greggman/zipalicious#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.40",
+    "@babel/polyfill": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^8.0.0-beta.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "karma": "^2.0.0",
+    "karma-babel-preprocessor": "^8.0.0-beta.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-webpack": "^2.0.13",
+    "mocha": "^5.0.4",
+    "source-map-support": "^0.5.3",
+    "webpack": "^3.11.0",
+    "webpack-load-plugins": "^0.1.2"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.18"
+  }
+}

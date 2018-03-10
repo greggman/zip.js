@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+    ],
+    "extends": "airbnb",
+    "rules": {
+        "arrow-body-style": "off",
+        "block-spacing": "off",
+        "brace-style": "off",
+        "camelcase": "off",
+        "comma-dangle": "off",
+        "consistent-return": "off",
+        "curly": "off",
+        "eqeqeq": "off",
+        "func-names": "off",
+        "indent": "off",
+        "max-len": "off",
+        "no-bitwise": "off",
+        "no-empty": "off",
+        "no-mixed-operators": "off",
+        "no-multi-assign": "off",
+        "no-param-reassign": "off",
+        "no-plusplus": "off",
+        "no-prototype-builtins": "off",
+        "no-shadow": "off",
+        "no-trailing-spaces": "off",
+        "no-underscore-dangle": "off",
+        "no-unused-vars": "off",
+        "no-use-before-define": "off",
+        "object-curly-newline": "off",
+        "object-curly-spacing": "off",
+        "one-var": "off",
+        "padded-blocks": "off",
+        "prefer-arrow-callback": "off",
+        "prefer-destructuring": "off",
+        "space-before-function-paren": "off"
+    },
+    "overrides": [
+        {
+            "files": [
+                "test/**/*.js"
+            ],
+            "rules": {
+                "import/no-extraneous-dependencies": "off"
+            }
+        }
+    ]
+}
